@@ -1,0 +1,43 @@
+body{
+    width:100%; 
+    width:100%; 
+    margin:0; 
+    padding:0;
+}
+
+#container {
+    width:50%; 
+    height:50%;
+    margin: 20px auto;
+    position: relative;
+    
+
+}
+.square{ 
+    border:1px solid #000;         
+    padding-bottom: 30%; 
+    height: 0;
+    width:30%; 
+    margin:1%; 
+    float:left; 
+    background-color: gray;
+}
+
+.square:hover { 
+	background-color: pink;
+	cursor: pointer;
+} 
+h1 {
+font-size: 150px;
+color: red;
+text-align: center;
+margin: 0; auto;
+
+
+}
+button {
+font-size: 20px;
+background-color: green;
+color: white;
+
+}

@@ -104,9 +104,10 @@ chooseLetter[8].addEventListener("click", function (){
 
 
 
-document.querySelector("reset").addEventListener("click", clearSquare() {
+document.querySelector("reset").addEventListener("click", clearSquare())
 	function clearSquare () {
-		if (document.getElementById("click0").innerText = "x" || "o" || "")
-		
-		("click0").innerText = ""
+		//if (document.getElementById("click0").innerText = "x" || "o" || "")
+		console.log("hi there")
+		document.getElementById("click0").innerText = "";
+
 }
